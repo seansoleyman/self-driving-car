@@ -1,7 +1,5 @@
 # Finding Lane Lines on the Road
 
-### Reflection
-
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines function.
 
 My pipeline consists of 7 steps:
