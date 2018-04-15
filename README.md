@@ -13,7 +13,7 @@ These projects were completed as part of the Udacity Self-Driving Car Engineer o
 * Uses a ResNet CNN to classify traffic signs with around 98% accuracy.
 * Implemented as a Jupyter notebook using Python 3.6.3 and TensorFlow 1.5.
 
-Project 3 - Behavioral Cloning
+## Project 3 - Behavioral Cloning
 
 ![Behavioral Cloning Image](03-behavioral-cloning/examples/autonomous_driving_screenshot_high_resolution.png)
 
