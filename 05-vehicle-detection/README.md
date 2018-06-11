@@ -9,8 +9,6 @@ The goals / steps of this project are the following:
 * Run your pipeline on a video stream (start with the test_video.mp4 and later implement on full project_video.mp4) and create a heat map of recurring detections frame by frame to reject outliers and follow detected vehicles.
 * Estimate a bounding box for vehicles detected.
 
----
-
 ## Histogram of Oriented Gradients (HOG)
 
 ### 1. Explain how (and identify where in your code) you extracted HOG features from the training images.
@@ -94,13 +92,13 @@ When processing the video, a large heatmap bonus is given to the area surroundin
 
 ### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-Although the classifier works very well on a randomly sampled validation set from the training data (99.21% accuracy) it does not perform nearly as well on the actual video. Much effort is needed to suppress false positives, and it is unlikely that this approach can provide the robustness needed for practical applications. 
+Although the classifier works very well on a randomly sampled validation set from the training data (99.21% accuracy) it does not perform nearly as well on the actual video. Much effort is needed to suppress false positives, and it is unlikely that this approach can provide the robustness needed for practical applications. Also, detection of far-away vehicles is not feasible due to the large number of false positives that would result. 
 
 One possible solution would be to improve the quality of the training data by using images taken using the same camera that was used to create the video, and similar conditions. 
 
 An even more robust solution could be created using a convolutional neural net. Here are some examples of recent research: 
 
-[Fast R-CNN](https://arxiv.org/pdf/1504.08083.pdf)
-[Faster R-CNN](https://arxiv.org/pdf/1506.01497.pdf)
-[Mask R-CNN](https://arxiv.org/pdf/1703.06870.pdf)
-[YOLO](https://pjreddie.com/media/files/papers/yolo.pdf)
+* [Fast R-CNN](https://arxiv.org/pdf/1504.08083.pdf)
+* [Faster R-CNN](https://arxiv.org/pdf/1506.01497.pdf)
+* [Mask R-CNN](https://arxiv.org/pdf/1703.06870.pdf)
+* [YOLO](https://pjreddie.com/media/files/papers/yolo.pdf)
