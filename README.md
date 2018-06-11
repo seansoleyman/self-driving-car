@@ -30,3 +30,9 @@ These projects were completed as part of the Udacity Self-Driving Car Engineer o
 * Color transforms, gradient detection, thresholding. 
 * Perspective transformation. 
 * Curve fitting, localization. 
+
+## Project 5 - Vehicle Detection
+
+* Uses classical computer vision algorithms (such as HOG) to detect vehicles in an image. 
+* Implemented as a Jupyter notebook using Python 3.6.4 and OpenCV 3.4.0
+
